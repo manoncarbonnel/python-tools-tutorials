@@ -2,6 +2,10 @@
 ![pipeline](https://github.com/<projetc_path>/badges/develop/pipeline.svg)
 ![coverage](https://github.com/<projetc_path>/badges/develop/coverage.svg)
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
 *Project description*
 
 **Table of Contents**
@@ -16,7 +20,7 @@
   - [Source files](#source-files)
 - [Environment](#environment)
   - [Code quality](#code-quality)
-  - [Python commands usage](#python-commands-usage)
+- [Python commands usage](#python-commands-usage)
 - [Running the tests](#running-the-tests)
   - [Unit testing](#unit-testing)
   - [End to end tests testing](#end-to-end-tests-testing)
@@ -36,20 +40,30 @@ You can plug any of this tools to your favourite IDE.
 ## Prerequisites
 
 You need to have the following softwares installed on your local machine:
+- Python library
+    - [local](https://www.python.org/downloads/)
+    - from a Docker container
+- [pip](https://pip.pypa.io/en/stable/installing/) (already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4))
+
+**Windows**
+
 - [Docker for windows](https://docs.docker.com/docker-for-windows/)
-- [Git](https://git-scm.com/)
-- Windows PowerShell
+- [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+Microsoft Visual C++ 14.0 (2015) with C++ Build Tools is required before installing `pip`.
+Note that while the error is calling for vc++ 14.0 - everything will work with newer versions of visual C++.
+
 
 ## Installing
 
 Clone project using ssh (you will need to set a SSH key in your Gitlab profile) 
-```Powershell
+```shell script
 git clone git@github.com
 ```
 
 ### Configuration
 
-- Each `./Dockerfile` contains a basic configuration for developing with [Symfony](https://symfony.com) 4 framework and deploying in a production environment
+- Each `./Dockerfile` contains a basic configuration for developing with [Python](https://www.python.org/) and deploying in a production environment
 - The file `.env` allows to set the name of the Docker project's stack as well as basic Python image version for Docker
 - The file `.env.dev.local` must be created (and git ignored) to fill in empty parameters from the `/.env` file 
 
@@ -63,7 +77,7 @@ git clone git@github.com
 
 ### Dependencies install
 
-When starting the `backend` container, [Composer](https://getcomposer.org/) will download and install dependencies in `./vendor` directory
+When starting the `backend` container, [pip](https://pypi.org/project/pip/) will download and install dependencies in the dedicated directory
 
 ### Data import
 
@@ -87,7 +101,7 @@ We use code quality tools which you can plug in your favourite IDE:
 ## Python commands usage
 
 Use this *pattern*
-```PowerShell
+```shell script
 docker-compose exec backend <entrypoint> <command> <args>
 ```
 
@@ -97,7 +111,7 @@ docker-compose exec backend <entrypoint> <command> <args>
 
 Launch tests with associated config file in `` *Path to the test config file*
 
-```PowerShell
+```shell script
 docker-compose exec backend <entrypoint> <command> <args>
 ```
 
@@ -105,7 +119,7 @@ docker-compose exec backend <entrypoint> <command> <args>
 
 Launch tests with associated config file in `` *path to the test config file*
 
-```PowerShell
+```shell script
 docker-compose exec backend <entrypoint> <command> <args>
 ```
 
