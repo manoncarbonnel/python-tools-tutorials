@@ -7,6 +7,8 @@ Flake8 is a wrapper around these tools:
 - pycodestyle
 - Ned Batchelder's McCabe script
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
@@ -18,6 +20,8 @@ Flake8 is a wrapper around these tools:
     - [External tool](#external-tool)
 - [Usage](#usage)
 - [Version control integration](#version-control-integration)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Prerequisites
 

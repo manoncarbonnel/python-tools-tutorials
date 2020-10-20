@@ -14,17 +14,21 @@ If application B requires a library be upgraded to version 3.0, this will not af
 
 [Here](https://docs.python.org/3/tutorial/venv.html) is the full Python documentation about virtual environments.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
 - [virtualenvwrapper](#virtualenvwrapper)
-    - [Install](#install)
-    - [Configuration](#configuration)
-    - [Usage](#usage)
+  - [Install](#install)
+  - [Configuration](#configuration)
+  - [Usage](#usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Prerequisites
 
-To install those tools, you will need:
+To install this tool, you will need:
 - Python library
     - [local](https://www.python.org/downloads/)
     - from a Docker container

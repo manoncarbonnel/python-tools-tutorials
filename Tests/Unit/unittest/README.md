@@ -12,6 +12,8 @@ It supports:
 
 [See full documentation](https://docs.python.org/3/library/unittest.html)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
@@ -30,10 +32,12 @@ It supports:
     - [With Test Suites](#with-test-suites)
     - [Combining Reports into a Single Report](#combining-reports-into-a-single-report)
     - [Setting a filename](#setting-a-filename)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
     
 ## Prerequisites
 
-To install those tools, you will need:
+To install this tool, you will need:
 - Python library
     - [local](https://www.python.org/downloads/)
     - from a Docker container

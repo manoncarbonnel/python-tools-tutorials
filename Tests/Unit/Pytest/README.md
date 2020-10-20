@@ -4,24 +4,28 @@ The pytest framework makes it easy to write small tests, yet scales to support c
 
 [See full documentation](https://docs.pytest.org/en/stable/contents.html)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
 - [Install](#install)
 - [Configuration](#configuration)
-    - [PyCharm](#pycharm)
+  - [PyCharm](#pycharm)
     - [Test frameworks](#test-frameworks)
 - [Usage](#usage)
-    - [Write your tests](#write-your-tests)
-    - [Data Fixtures](#data-fixtures)
-    - [Running the tests](#running-the-tests)
-    - [Generate a report](#generate-a-report)
-        - [XML report](#xml-report)
-        - [HTML report](#html-report)
+  - [Write your tests](#write-your-tests)
+  - [Data fixtures](#data-fixtures)
+  - [Running the tests](#running-the-tests)
+  - [Generate a report](#generate-a-report)
+    - [XML report](#xml-report)
+    - [HTML report](#html-report)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
     
 ## Prerequisites
 
-To install those tools, you will need:
+To install this tool, you will need:
 - Python library
     - [local](https://www.python.org/downloads/)
     - from a Docker container
@@ -71,8 +75,24 @@ def test_answer():
 ### Data fixtures
 
 To run tests of an app, you might need reliable and clean data in your database.
+It is called [fixtures](https://pytest.org/en/stable/fixture.html).
 
-To do this, use [Faker](https://faker.readthedocs.io/en/master/)
+To do this, use [Faker](https://faker.readthedocs.io/en/master/) or its plugin for Pytest [faker](https://github.com/pytest-dev/pytest-faker).
+
+```shell script
+pip install pytest-faker
+```
+
+Example `tests/test_faker.py`:
+
+```python
+from faker.generator import Generator
+
+def test_faker(faker):
+    """Faker factory is a fixture."""
+    assert isinstance(faker, Generator)
+    assert isinstance(faker.name(), str)
+```
 
 ### Running the tests
 

@@ -6,13 +6,17 @@ Git hook scripts are useful for identifying simple issues before submission to c
 Running hooks on every commit automatically point out issues in code such as trailing whitespace, and debug statements.
 By pointing these issues out before code review allows a code reviewer to focus on the architecture of a change while not wasting time with trivial style nitpicks.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
 - [Install](#install)
 - [Configuration](#configuration)
-- [Usage](#Usage)
+- [Usage](#usage)
 - [Show your style](#show-your-style)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Prerequisites
 

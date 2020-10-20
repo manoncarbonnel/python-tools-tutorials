@@ -9,25 +9,29 @@ behave uses tests written in a natural language style, backed up by Python code.
 
 [See full documentation](https://behave.readthedocs.io/en/latest/)
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
 - [Install](#install)
 - [Configuration](#configuration)
-    - [PyCharm](#pycharm)
-    - [Form a file](#from-a-file)
-        - [Configuration format](#configuration-format)
+  - [PyCharm](#pycharm)
+  - [From a file](#from-a-file)
+    - [Configuration format](#configuration-format)
 - [Usage](#usage)
-    - [Write your tests](#write-your-tests)
-        - [Features](#features)
-    - [Enhance your tests](#enhance-your-tests)
-    - [Running the tests](#running-the-tests)
-    - [Generate a report](#generate-a-report)
-        - [HTML report](#html-report)
+  - [Write your tests](#write-your-tests)
+    - [Features](#features)
+  - [Enhance your tests](#enhance-your-tests)
+  - [Running the tests](#running-the-tests)
+  - [Generate a report](#generate-a-report)
+    - [HTML report](#html-report)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
     
 ## Prerequisites
 
-To install those tools, you will need:
+To install this tool, you will need:
 - Python library
     - [local](https://www.python.org/downloads/)
     - from a Docker container

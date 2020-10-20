@@ -9,6 +9,8 @@ it provides a command line utility, Python library and plugins for various edito
 
 *isort requires Python 3.6+ to run but supports formatting Python 2 code too.*
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
@@ -22,6 +24,8 @@ it provides a command line utility, Python library and plugins for various edito
 - [Usage](#usage)
 - [Version control integration](#version-control-integration)
 - [Show your style](#show-your-style)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Prerequisites
 

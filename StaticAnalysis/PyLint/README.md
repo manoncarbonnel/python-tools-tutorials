@@ -9,6 +9,8 @@ It is also possible to write your own plugins for adding your own checks or for 
 
 *Pylint is used by Pylama so consider using Pylama instead and use the PyCharm plugin only*
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
@@ -20,6 +22,8 @@ It is also possible to write your own plugins for adding your own checks or for 
     - [Plugin](#plugin)
     - [External tool](#external-tool)
 - [Usage](#usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Prerequisites
 

@@ -15,6 +15,8 @@ Pylama wraps these tools:
 - [eradicate](https://developers.google.com/closure/utilities) © Steven Myint;
 - [Mypy](https://github.com/python/mypy) © Jukka Lehtosalo and contributors;
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
@@ -26,6 +28,8 @@ Pylama wraps these tools:
     - [External tool](#external-tool)
 - [Usage](#usage)
   - [PyTest integration](#pytest-integration)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Prerequisites
 

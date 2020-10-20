@@ -8,7 +8,9 @@
 
 *Project description*
 
-**Table of Contents**
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Summary**
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
@@ -30,6 +32,8 @@
   - [Production environment](#production-environment)
 - [Built With](#built-with)
 - [Versioning](#versioning)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Getting Started
 

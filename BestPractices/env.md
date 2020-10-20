@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Env files](#env-files)
+  - [Getting Started](#getting-started)
+  - [Env configuration example](#env-configuration-example)
+  - [Env dev configuration example](#env-dev-configuration-example)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Env files
 
 **Table of Contents**

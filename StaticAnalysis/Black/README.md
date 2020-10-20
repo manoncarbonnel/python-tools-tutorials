@@ -12,6 +12,8 @@ Formatting becomes transparent after a while and you can focus on the content in
 
 Black makes code review faster by producing the smallest diffs possible.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Summary**
 
 - [Prerequisites](#prerequisites)
@@ -20,12 +22,14 @@ Black makes code review faster by producing the smallest diffs possible.
   - [From a file](#from-a-file)
     - [Where Black looks for the file](#where-black-looks-for-the-file)
     - [Configuration format](#configuration-format)
-    - [Plugin compatibility](#plugin-compatibility)
+  - [Plugin compatibility](#plugin-compatibility)
   - [PyCharm](#pycharm)
     - [External tool](#external-tool)
 - [Usage](#usage)
-- [Version Control integration](#version-control-integration)
+- [Version control integration](#version-control-integration)
 - [Show your style](#show-your-style)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Prerequisites
 
